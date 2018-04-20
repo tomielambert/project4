@@ -1,0 +1,68 @@
+p.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+body{
+background-image: url(images/zelda.jpg);
+background-repeat:no-repeat;
+background-size: 100% 100%;
+}
+div.container {
+    width: 100%;
+    border: px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: Black;
+    background-color: transparent;
+    clear: left;
+    text-align: center;
+	font-size: 40px;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+ ul {
+    list-style-type: none;
+    padding: 20px;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: transparent;
+  padding: 30px;
+  margin: 0px; 
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
