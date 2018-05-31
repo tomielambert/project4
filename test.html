@@ -1,0 +1,15 @@
+ <a onclick="myAudioFunction('B');">
+     <img src="play_button.png">
+ </a>
+ <script>
+     var aAudio = new Audio('a.mp3');
+     var bAudio = new Audio('images/zelda_main_theme.mp3');
+     function myAudioFunction(letter) {
+         if(letter == 'a') {
+             aAudio.play();
+         } else if(letter == 'b') {
+             bAudio.play();
+         }
+     }
+ </script>
+ <img src="images/triforc.jpg" style="width:400px;height:400px;"align="left"><img src="images/adenture2.jpg" 

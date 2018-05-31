@@ -1,10 +1,46 @@
-p.serif {
+p .serif {
     font-family: "Times New Roman", Times, serif;
+}
+.hell3{
+	background-size:100% 190%;
+}
+.hell{
+	background-size:100% 100%;
+}
+.hell2{
+	background-size:100% 100%;
+}
+.hell4{
+	background-size:100% 100%;
+}
+.hell5{
+	background-size:100% 100%;
+}
+.pocket{
+	background-size:150% 100%;
+}
+.pocket2{
+background-size:100% 100%;
+}
+.pocket3{
+	background-size:100% 100%;
+}
+.pocket4{background-size:100% 100%;
+}
+.pocket5{
+	background-size:100% 100%;
+}
+.item3 { 
+grid-area: main; 
+}
+.hello { 
+background-size:100% 150%;
 }
 body {
 	background-repeat:no-repeat;
-	background-size: auto 150%;
+	background-size: auto 190%;
 	color:white;
+
 }
 div.container {
     width: 100%;
@@ -13,8 +49,8 @@ div.container {
 
 header, footer {
     padding: 1em;
-    color: white;
-    background-color: transparent;
+    color: Black;
+    background-color: none;
     clear: left;
     text-align: center;
 	font-size: 40px;
@@ -61,7 +97,7 @@ article {
   margin: 0px; 
 }
 .grid-container > div {
-  background-color: rgba(transparent);
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
   font-size: 20px;
